@@ -6,7 +6,7 @@ body {
   font-size: 62.5%;
 }
 
-.black-layer {
+#black-layer {
   background-color: #000;
   position: absolute;
   z-index: 100;
@@ -19,20 +19,20 @@ body {
   flex-direction: column;
 }
 
-.black-layer.on {
+#black-layer.on {
   display: flex;
 }
 
-.black-layer.off {
+#black-layer.off {
   display: none;
 }
 
-.black-layer p {
+#black-layer p {
   font-size: 5.2rem;
   color: #FFF;
 }
 
-.black-layer input {
+#black-layer input {
   background-color: #000;
   border: none;
   border-bottom: 1px solid #FFF;
@@ -40,6 +40,11 @@ body {
   color: #FFF;
   font-size: 5.2rem;
   text-align: center;
+}
+
+#black-layer .error {
+  font-size: 4.2rem;
+  color: #f96363;
 }
 
 nav.navbar-default {
@@ -53,4 +58,8 @@ nav.navbar-default {
   color: #FFF;
   font-weight: bold;
   letter-spacing: 2px;
+}
+
+#youtube {
+  text-align: center;
 }
