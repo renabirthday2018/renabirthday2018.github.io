@@ -40,6 +40,7 @@ body {
   color: #FFF;
   font-size: 3rem;
   text-align: center;
+  border-radius: 0px;
 }
 
 #black-layer input[type=text] {
@@ -48,6 +49,7 @@ body {
 
 #black-layer input[type=submit] {
   width: 20%;
+  text-align: center;
 }
 
 #black-layer .error {
