@@ -18,7 +18,7 @@
           password: password
         }, function(data){
           if(data.status == 'success'){
-            var str = '<iframe width="650" height="400" src="https://www.youtube.com/embed/' + data.content + '" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>'
+            var str = '<iframe class="embed-responsive-item" width="650" height="400" src="https://www.youtube.com/embed/' + data.content + '" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>'
             $('#youtube').append(str)
             $('#black-layer').addClass('off');
             $('#black-layer').removeClass('on');
@@ -45,19 +45,15 @@
       <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="">橋本麗愛の比べられるのが大キライなの</a>
+          <span class="navbar-brand">橋本麗愛の比べられるのが大キライなの</span>
         </div>
       </div>
     </nav>
   </header>
-  <div class="container">
-    <div id="youtube">
+  <div class="container main">
+    <div class="col-md-9 movie">
+      <div id="youtube" class="embed-responsive embed-responsive-16by9">
+      </div>
     </div>
   </div>
 </body>

@@ -28,7 +28,7 @@ body {
 }
 
 #black-layer p {
-  font-size: 5.2rem;
+  font-size: 4rem;
   color: #FFF;
 }
 
@@ -38,12 +38,20 @@ body {
   border-bottom: 1px solid #FFF;
   outline: none;
   color: #FFF;
-  font-size: 5.2rem;
+  font-size: 3rem;
   text-align: center;
 }
 
+#black-layer input[type=text] {
+  width: 70%;
+}
+
+#black-layer input[type=submit] {
+  width: 20%;
+}
+
 #black-layer .error {
-  font-size: 4.2rem;
+  font-size: 3rem;
   color: #f96363;
 }
 
@@ -58,6 +66,18 @@ nav.navbar-default {
   color: #FFF;
   font-weight: bold;
   letter-spacing: 2px;
+}
+
+.navbar-brand {
+  height: auto;
+}
+
+.main {
+  padding: 0;
+}
+
+.main .movie {
+  padding: 0;
 }
 
 #youtube {
