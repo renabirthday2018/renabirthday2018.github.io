@@ -35,7 +35,6 @@ body {
 #black-layer input {
   background-color: #000;
   border: none;
-  border-bottom: 1px solid #FFF;
   outline: none;
   color: #FFF;
   font-size: 3rem;
@@ -44,12 +43,12 @@ body {
 }
 
 #black-layer input[type=text] {
+  border-bottom: 1px solid #FFF;
   width: 70%;
 }
 
 #black-layer input[type=submit] {
   width: 20%;
-  text-align: center;
 }
 
 #black-layer .error {
