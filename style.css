@@ -19,6 +19,14 @@ body {
   flex-direction: column;
 }
 
+.black-layer.on {
+  display: flex;
+}
+
+.black-layer.off {
+  display: none;
+}
+
 .black-layer p {
   font-size: 5.2rem;
   color: #FFF;
@@ -31,6 +39,7 @@ body {
   outline: none;
   color: #FFF;
   font-size: 5.2rem;
+  text-align: center;
 }
 
 nav.navbar-default {
